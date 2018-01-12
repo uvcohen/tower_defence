@@ -2,4 +2,4 @@
 
 This is a tower defence game I am working on in python (using pygame).
 
-Its not very pretty, just a project I wanted to mess around with
+Its not very pretty, just a project I wanted to mess around with to learn an object orientated language.
