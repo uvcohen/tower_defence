@@ -46,28 +46,6 @@ class Enemy(object):
             self.x_pos = 10
             self.y_pos = 10            
         return direction, self.x_pos, self.y_pos
-        
-        """
-        global enemy_image_list
-        enemy_image_list = []
-        prefix = "img/BODY_skeleton_%s-%s.png"
-        
-        for i in range(0, 4):
-            enemy_image_list.append([""] * 9)
-        
-      
-        # up:0 left: 1 down: 2 right: 3
-        for i in range(0, 4):
-            for n in range(0, 9):
-                enemy_image_list[i][n] = (prefix % (i, n))
-           
-        
-
-This piece of code can be used for animation!       
-          
-
-
-    """    
 
         
         

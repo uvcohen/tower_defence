@@ -36,6 +36,8 @@ coins = 100
 lives = 50
 run_wave = False
 enemy_start_pos_y = dis_sz_y / 2 + 26
+display_lives = 0
+display_coins = 0
 
 # set up the window
 window = pyg.display.set_mode((dis_sz_x, dis_sz_y), 0, 32)
@@ -133,12 +135,7 @@ while True: # the main game loop
                         if event.type == pyg.MOUSEBUTTONDOWN:
                             tower.set_position(pyg.mouse.get_pos()) #set tower posiiton
                             coins -= tower.price                      
-    
-                """
-                #mouse_pos > (tower.x_pos + 20, tower.y_pos + 20) and \
-                #mouse_pos < (tower.x_pos + 60, tower.y_pos + 60) and \
-                """
-    
+   
     #main tower/enemy loops
     for tower in towers:
         window.blit(images_tower[0], (tower.x_pos, tower.y_pos))
