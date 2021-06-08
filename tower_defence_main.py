@@ -66,7 +66,7 @@ for i in range(0, 20):
 """
 #create tower
 tower1 = Tower(60, dis_sz_y - 70, 2, 1, 100, 20)
-tower2 = Tower(90, dis_sz_y - 70, 2, 1, 100, 20)
+tower2 = Tower(90, dis_sz_y - 200, 2, 1, 100, 20)
 towers = [tower1]
 #create enemy images
 images_tower = {
